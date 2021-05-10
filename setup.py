@@ -9,6 +9,7 @@ from setuptools import setup
 
 setup(name='judge',
       version='1.0',
+      packages=['judge'],
       py_modules=['rule_engine','functions'],
       author='Travis Jones',
       author_email = 'travis.jones.610@gmail.com'
